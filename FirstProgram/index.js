@@ -1,10 +1,10 @@
-var userName = "Hachibur Rahman";
-console.log(userName);
+var userName = "Md.Hachibur Rahman";
+var age = 25;
+console.log("My Name is ".concat(userName, ".My age is ").concat(age));
 function add(num1, num2) {
-    console.log(num1 + num2);
+    return num1 + num2;
 }
-function subtract(num1, num2) {
-    console.log(num1 - num2);
-}
-add(20, 10);
-subtract(20, 10);
+var addition = add(10, 5);
+console.log(addition);
+var number = 10;
+console.log(number);
